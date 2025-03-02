@@ -7,4 +7,4 @@ Key Features:
 - User-Friendly Interface: Visual feedback and easy-to-use buttons to control the timer.
 - Responsive Design: Mobile-friendly interface ensuring smooth usage across devices.
 
-Check it out here:
+Check out the images for more information. 
