@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    width: 300px;  
+    height: 500px; 
+    background-color: #6ABF9D;  /* Green background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/* Header Text */
+.header-text {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Centering the whole container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+/* Centering the image inside the circle */
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: #F7E7C5; 
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+/* Image */
+.image-container img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 50%;
+}
+
+/* Pencil Image */
+.pencil-img {
+    width: 20px;  
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* Volume Image */
+.volume {
+    width: 20px;   /* Adjust width as needed */
+    height: auto;  /* Maintain aspect ratio */
+    position: absolute;   /* Position it relative to the viewport */
+    top: 10px;     /* Distance from the top */
+    right: 10px;   /* Distance from the right */
+}
+
+/* Timer */
+.timer {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: none;
+}
+
+/* Give Up Button */
+.give-up-btn {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    display: none;
+}
+
+.give-up-btn:hover {
+    background-color: #333;
+}
+
+/* Timer Input */
+#minuteInput {
+    width: 80px;
+    padding: 5px;
+    font-size: 10.6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Start Timer Button */
+#startBtn {
+    background-color: #007BFF; /* Same color as Pause Button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Pause Button */
+.pause-btn {
+    background-color: #007BFF; /* Same color as Start Button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    display: none;
+}
+
+.pause-btn:hover {
+    background-color: #0056b3; /* Darker shade when hovered */
+}
+
+/* Hidden class */
+.hidden {
+    display: none;
+}
